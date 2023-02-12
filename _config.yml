@@ -1,0 +1,10 @@
+theme: jekyll-theme-minimal
+title: Yi-Ting Lin
+description: 
+logo: 
+google_analytics: G-6219R1CH71
+exclude: ["Gemfile", "Gemfile.lock", "run.sh"]
+languages: ['en', 'zh-tw']
+
+plugins:
+  - "jekyll-github-metadata"

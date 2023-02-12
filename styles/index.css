@@ -1,0 +1,113 @@
+h3 small {
+  font-size: 0.9em;
+}
+
+body {
+  padding: 20px 40px;
+}
+
+a {
+  color: rgb(80, 100, 255);
+}
+
+a:hover {
+  font-weight: inherit;
+  color: rgb(50, 70, 200);
+}
+
+header {
+  float: none;
+  position: relative;
+  width: initial;
+  margin: 0 auto;
+}
+
+footer {
+  float: none;
+  position: relative;
+  width: initial;
+  margin: 0 auto;
+  bottom: 0;
+}
+
+section {
+  float: none;
+  width: initial;
+  border: 1px solid #e5e5e5;
+  border-width: 1px 0;
+  padding: 20px 0;
+  margin: 0 0 20px;
+}
+
+section p:last-child {
+  margin-bottom: 0;
+}
+
+.wrapper {
+  width: 720px;
+}
+
+time.term {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.job-dept {
+  margin: 0 0 .5em;
+}
+
+.languages {
+  position: absolute;
+  right: 0;
+  top: 0;
+  font-size: 16px;
+}
+
+@media print,
+screen and (max-width: 960px) {
+  header {
+    padding-right: 0;
+  }
+}
+
+@media print,
+screen and (max-width: 720px) {}
+
+@media print,
+screen and (max-width: 480px) {
+  body {
+    padding: 15px;
+  }
+}
+
+@media print {
+  header {
+    margin-bottom: 1em;
+  }
+
+  footer {
+    display: none;
+  }
+
+  header img {
+    width: 120px;
+    height: auto;
+    object-fit: contain;
+  }
+
+  header p {
+    display: none;
+  }
+
+  section {
+    border: 0;
+    padding: 0;
+  }
+
+  .wrapper section .link {
+    display: none;
+  }
+
+  .languages {
+    display: none;
+  }
+}

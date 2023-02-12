@@ -1,0 +1,12 @@
+{
+  "cSpell.words": [
+    "Shenzhen",
+    "Wechat",
+    "Tencent",
+    "Foxconn",
+    "iDSBG ",
+  ],
+  "markdownlint.config": {
+    "MD041": false
+  }
+}
